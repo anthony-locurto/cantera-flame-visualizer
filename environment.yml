@@ -1,0 +1,13 @@
+name: combustion
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.4
+  - cantera>=3.0
+  - numpy>=1.25
+  - pandas>=2.0
+  - plotly>=5.18
+  - pip
+  - pip:
+      - streamlit>=1.32
